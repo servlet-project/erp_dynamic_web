@@ -9,13 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.erp.auth.service.AuthService;
-import com.erp.auth.service.UserService;
 import com.erp.auth.service.impl.AuthServiceImpl;
 import com.erp.auth.vo.AuthDTOs.RegisterRequestDTO;
 import com.erp.common.rest.RestBusinessException;
-import com.erp.common.rest.RestResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.gson.Gson;
 
 import static com.erp.common.rest.RestBusinessException.StatusCode;
 
